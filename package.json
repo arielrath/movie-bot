@@ -1,0 +1,12 @@
+{
+  "name": "movie-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Movie Bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
