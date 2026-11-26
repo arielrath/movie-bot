@@ -27,6 +27,7 @@ app.get("/webhook", (req, res) => {
 });
 
 app.post("/webhook", (req, res) => {
+  console.log("WEBHOOK RECEIVED!"); console.log(JSON.stringify(req.body, null, 2));
   const messages =
     req.body.entry?.[0]?.changes?.[0]?.value?.messages;
 
